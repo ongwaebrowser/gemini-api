@@ -27,6 +27,6 @@ class GeminiAPI:
         return response
 
 if __name__ == "__main__":
-    api = GeminiAPI("YOUR_API_KEY")
+    api = GeminiAPI("AIzaSyAS24Vv4gaDqDpR5sQPUdb0mjPrWlqAplI")
     result = api.search("example query")
     print(result)
