@@ -4,6 +4,6 @@
     { "src": "api/gemini_api.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/search", "dest": "api/gemini_api.py" }
+    { "src": "/search", "dest": "/api/gemini_api.py" }
   ]
 }
